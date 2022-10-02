@@ -1,17 +1,17 @@
 "use strict";
 
 // 1
-let answer = prompt('Even number from 10 to 50?', '');
+const answer = prompt('Even number from 10 to 50?', '');
 if (answer > 9 && answer < 51 && answer % 2 == 0 && !isNaN(answer)) {
     alert(`Result: ${answer/2}`);
 } else {
-    alert('Enter allowed value...');
+    alert('Enter correct value...');
 }
 
 // 2
 let num = -124;
 console.log(num);
-let x = 100 + (num *= 5);
+const x = 100 + (num *= 5);
 console.log(num);
 console.log(x);
 
